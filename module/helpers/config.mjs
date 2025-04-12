@@ -1,23 +1,23 @@
-export const BOILERPLATE = {};
+export const ORGANIKA = {};
 
 /**
- * The set of Ability Scores used within the sytem.
+ * The set of Ability Scores used within the system.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+ORGANIKA.abilities = {
+  str: 'ORGANIKA.Ability.Str.long',
+  dex: 'ORGANIKA.Ability.Dex.long',
+  con: 'ORGANIKA.Ability.Con.long',
+  int: 'ORGANIKA.Ability.Int.long',
+  wis: 'ORGANIKA.Ability.Wis.long',
+  cha: 'ORGANIKA.Ability.Cha.long',
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+ORGANIKA.abilityAbbreviations = {
+  str: 'ORGANIKA.Ability.Str.abbr',
+  dex: 'ORGANIKA.Ability.Dex.abbr',
+  con: 'ORGANIKA.Ability.Con.abbr',
+  int: 'ORGANIKA.Ability.Int.abbr',
+  wis: 'ORGANIKA.Ability.Wis.abbr',
+  cha: 'ORGANIKA.Ability.Cha.abbr',
 };
