@@ -48,8 +48,12 @@
     <a class="item" data-tab="features">Features</a>
     <a class="item" data-tab="description">Description</a>
     <a class="item" data-tab="items">Items</a>
-    <a class="item" data-tab="spells">Spells</a>
+    {{!-- <a class="item" data-tab="spells">Spells</a> --}}
     <a class="item" data-tab="effects">Effects</a>
+    <a class="item" data-tab="org">Org</a>
+    <a class="item" data-tab="electric">Electric</a>
+    <a class="item" data-tab="hydro">Hydro</a>
+
   </nav>
 
   {{!-- Sheet Body --}}
@@ -95,14 +99,30 @@
     </div>
 
     {{!-- Owned Spells Tab --}}
-    <div class="tab spells" data-group="primary" data-tab="spells">
+    {{!-- <div class="tab spells" data-group="primary" data-tab="spells">
       {{> "systems/organika/templates/actor/parts/actor-spells.hbs"}}
-    </div>
+    </div> --}}
 
     {{!-- Active Effects Tab --}}
     <div class="tab effects flexcol" data-group="primary" data-tab="effects">
       {{> "systems/organika/templates/actor/parts/actor-effects.hbs"}}
     </div>
+
+    {{!-- Organic Tab --}}
+    <div class="tab organic" data-group="primary" data-tab="organic">
+      {{> "systems/organika/templates/actor/parts/actor-organic.hbs"}}
+    </div>
+
+    {{!-- Active Effects Tab --}}
+    <div class="tab electric" data-group="primary" data-tab="electric">
+      {{> "systems/organika/templates/actor/parts/actor-electric.hbs"}}
+    </div>
+
+    {{!-- Active Effects Tab --}}
+    <div class="tab hydro" data-group="primary" data-tab="hydro">
+      {{> "systems/organika/templates/actor/parts/actor-hydro.hbs"}}
+    </div>
+
 
   </section>
 </form>
