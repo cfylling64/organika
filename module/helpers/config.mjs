@@ -5,19 +5,19 @@ export const ORGANIKA = {};
  * @type {Object}
  */
 ORGANIKA.abilities = {
-  str: 'ORGANIKA.Ability.Str.long',
-  dex: 'ORGANIKA.Ability.Dex.long',
-  con: 'ORGANIKA.Ability.Con.long',
-  int: 'ORGANIKA.Ability.Int.long',
-  wis: 'ORGANIKA.Ability.Wis.long',
-  cha: 'ORGANIKA.Ability.Cha.long',
+  ste: 'ORGANIKA.Ability.Ste.long',
+  met: 'ORGANIKA.Ability.Met.long',
+  mot: 'ORGANIKA.Ability.Mot.long',
+  dri: 'ORGANIKA.Ability.Dri.long',
+  log: 'ORGANIKA.Ability.Log.long',
+  pow: 'ORGANIKA.Ability.Pow.long',
 };
 
 ORGANIKA.abilityAbbreviations = {
-  str: 'ORGANIKA.Ability.Str.abbr',
-  dex: 'ORGANIKA.Ability.Dex.abbr',
-  con: 'ORGANIKA.Ability.Con.abbr',
-  int: 'ORGANIKA.Ability.Int.abbr',
-  wis: 'ORGANIKA.Ability.Wis.abbr',
-  cha: 'ORGANIKA.Ability.Cha.abbr',
+  ste: 'ORGANIKA.Ability.Ste.abbr',
+  met: 'ORGANIKA.Ability.Met.abbr',
+  mot: 'ORGANIKA.Ability.Mot.abbr',
+  dri: 'ORGANIKA.Ability.Dri.abbr',
+  log: 'ORGANIKA.Ability.Log.abbr',
+  pow: 'ORGANIKA.Ability.Pow.abbr',
 };

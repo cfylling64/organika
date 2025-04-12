@@ -10,6 +10,9 @@ export const preloadHandlebarsTemplates = async function () {
     'systems/organika/templates/actor/parts/actor-items.hbs',
     'systems/organika/templates/actor/parts/actor-spells.hbs',
     'systems/organika/templates/actor/parts/actor-effects.hbs',
+    'systems/organika/templates/actor/parts/actor-electric.hbs',
+    'systems/organika/templates/actor/parts/actor-hydro.hbs',
+    'systems/organika/templates/actor/parts/actor-org.hbs',
     // Item partials
     'systems/organika/templates/item/parts/item-effects.hbs',
   ]);

@@ -1,12 +1,12 @@
 {
   "ORGANIKA": {
     "Ability": {
-      "Str": { "long": "Strength", "abbr": "str" },
-      "Con": { "long": "Constitution", "abbr": "con" },
-      "Dex": { "long": "Dexterity", "abbr": "dex" },
-      "Int": { "long": "Intelligence", "abbr": "int" },
-      "Wis": { "long": "Wisdom", "abbr": "wis" },
-      "Cha": { "long": "Charisma", "abbr": "cha" }
+      "Ste": { "long": "Steel", "abbr": "ste" },
+      "Met": { "long": "Mettle", "abbr": "met" },
+      "Mot": { "long": "Motor", "abbr": "mot" },
+      "Dri": { "long": "Drive", "abbr": "dri" },
+      "Log": { "long": "Logic", "abbr": "log" },
+      "Pow": { "long": "Power", "abbr": "pow" }
     },
     "SheetLabels": {
       "Actor": "Organika Actor Sheet",
